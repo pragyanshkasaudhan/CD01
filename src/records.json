@@ -1,0 +1,63 @@
+[
+    {
+        "id":1,
+        "clgname": "Noida Institute of Engineering & Technology",
+        "imgcount": "",
+        "vidcount":"",
+        "cdrating":"",
+        "logopath":"",
+        "city":"",
+        "approval":"",
+        "fees":"",
+        "userrating":"",
+        "admlink":"",
+        "revlink":"",
+        "crslink":""
+    },
+    {
+        "id":2,
+        "clgname": "galgotias college of engineering and technology",
+        "imgcount": "",
+        "vidcount":"",
+        "cdrating":"",
+        "logopath":"",
+        "city":"",
+        "approval":"",
+        "fees":"",
+        "userrating":"",
+        "admlink":"",
+        "revlink":"",
+        "crslink":""
+        
+    },
+    {
+        "id":1,
+        "clgname": "Noida Institute of Engineering & Technology",
+        "imgcount": "",
+        "vidcount":"",
+        "cdrating":"",
+        "logopath":"",
+        "city":"",
+        "approval":"",
+        "fees":"",
+        "userrating":"",
+        "admlink":"",
+        "revlink":"",
+        "crslink":""
+    },
+    {
+        "id":3,
+        "clgname": "GL Bajaj Institute of Technology and Management",
+        "imgcount": "",
+        "vidcount":"",
+        "cdrating":"",
+        "logopath":"",
+        "city":"",
+        "approval":"",
+        "fees":"",
+        "userrating":"",
+        "admlink":"",
+        "revlink":"",
+        "crslink":""
+    }
+]

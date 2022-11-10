@@ -1,0 +1,271 @@
+@import url('https://fonts.cdnfonts.com/css/din-pro-cond');
+
+/* font-family: 'DIN Pro Cond', sans-serif;
+font-family: 'DIN Pro Regular', sans-serif;
+font-family: 'DIN Pro Cond Light', sans-serif;
+font-family: 'DIN Pro Light', sans-serif;
+font-family: 'DIN Pro Cond Medium', sans-serif;
+font-family: 'DIN Pro Medium', sans-serif;
+font-family: 'DIN Pro Bold', sans-serif;
+font-family: 'DIN Pro Cond Bold', sans-serif;
+font-family: 'DIN Pro Black', sans-serif;
+font-family: 'DIN Pro Cond Black', sans-serif; */
+
+*{
+    --basic: #fff;
+    --primary: #f17837;
+    --secondary: #5e5e5e;
+    --bg: #f9f9f9;
+}
+.card{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: var(--bg);
+    font-family: 'DIN Pro Medium', sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+/* .opc{
+    background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+} */
+
+/* Image Section */
+
+.imgSec{
+    background-image: url("img/clg-head.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* overflow: hidden; */
+    height: 40%;
+    /* padding-top: 1%; */
+    /* padding-bottom: 0;
+    margin-bottom: 0; */
+    display: flex;
+    flex-direction: column;
+    color: var(--basic);
+    z-index: 0;
+}
+.imgSec .cdBar{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+    width: 95%;
+    margin: 1.5% auto;
+}
+.imgvidCount{
+    min-width: 15%;
+    /* background-color: #5e5e5e; */
+}
+.imgvidCount span{
+    font-size: 0.9rem;
+    /* margin: 5%; */
+    font-weight: 800;
+}
+.imgicon, .vidicon{
+    font-size: 0.9rem;
+    margin-right: 10%;
+}
+.cdratIco{
+    /* background-color: #f17837; */
+    min-width: 40%;
+    font-size: 1.4rem;
+    display: flex;
+    margin-top: 2%;
+    /* align-items: center; */
+    justify-content: flex-end;
+
+}
+.cdRating{
+    /* background-color: #5e5e5e; */
+    min-width: 30%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+.cdRating span{
+    font-size: 0.554rem;
+    font-weight: 800;
+}
+.cdRating h3{
+    font-size: 1rem;
+    margin-top: -2px;
+    font-weight: 900;
+}
+.imgSec .nameBar{
+    /* background-color: #f17837; */
+    display: flex;
+    position: absolute;
+    left: 22%;
+    bottom: 2%;
+    width: 76%;
+    z-index: 1;
+}
+.imgSec .nameBar h1{
+    font-size: 0.8rem;
+    margin: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* Logo Section */
+.logoSec{
+    background-color: var(--basic);
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    min-height: 8%;
+    color: var(--secondary);
+}
+.logoSec .logo{
+    background-color: var(--basic);
+    width: 50px;
+    height: 50px;
+    padding: 1%;
+    overflow: hidden;
+    margin-top: -10.5%;
+    margin-left: 3%;
+    box-shadow: rgb(204 202 202) 0px 0px 5px;
+    /* background-image: url("img/niet-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    /* margin-left: 2.5%; */
+    /* padding-right: 2.5%; */ 
+    /* border: 5px solid var(--basic); */
+    /* overflow: hidden; */
+    /* margin-top: -50px; */
+}
+.logoSec .logo img{
+    width: 100%;
+    /* min-height: 17.5%; */
+}
+.logoSec .city{
+    /* background-color: #f17837; */
+    position: absolute;
+    left: 22%;
+}
+.logoSec i{
+    margin-right: 3px;
+}
+.logoSec span{
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    font-weight: 400;
+    /* text-align: left; */
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+/* Fees/Review Section */
+
+.feesSec{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 14%;
+    padding-bottom: 2%;
+    line-height: 1;
+    background-color: var(--basic);
+    /* justify-items: flex-start; */
+    text-align: left;
+    padding-top: 1%;
+    /* padding-left: 2.5%; */
+}
+.feesSec h2{
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+}
+.feesSec span{
+    color: var(--secondary);
+    font-size: 0.5rem;
+}
+.feesSec .sec1{
+    padding-left: 3%;
+    width: 30%;
+    margin: 0;
+    /* height: auto; */
+}
+.leftBorder{
+    border-left: 2px solid #dedede;
+}
+
+/* Ranking Section */
+.rankSec{
+    display: flex;
+    background-color: var(--basic);
+    border-top: 1px solid #dedede ;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.rankSec .rank{
+    min-width: 50%;
+    max-width: 50%;
+    color: var(--secondary);
+    text-align: center;
+    /* font-weight: 100; */
+    font-size: 0.7rem;
+}
+
+/* Link Section */
+
+.linkSec{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary);
+}
+.linkSec span{
+    padding: 1%;
+    margin: 0 1%;
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+/* Button Section */
+
+.btnSec{
+    width: 100%;
+    max-height: 10%;
+    position: relative;
+}
+.btnSec i{
+    font-size: 0.7rem;
+    margin-right: 3%;
+}
+.btnOrange{
+    background-color: var(--primary);
+    color: var(--basic);
+    border: 1px solid var(--primary);
+}
+.btnWhite{
+    background-color: var(--basic);
+    color: var(--primary);
+    border: 1px solid #dedede;
+}
+.btnBottom{
+    box-sizing: border-box;
+    font-family: 'DIN Pro Medium', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    width: 50%;
+    padding: 2.5% 0;
+    text-transform: uppercase;
+
+}
