@@ -23,8 +23,41 @@ font-family: 'DIN Pro Cond Black', sans-serif; */
 }
 
 .header{
+  font-family: 'DIN Pro Regular', sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 30px 50px;
 }
 
+.header button{
+  font-family: 'DIN Pro Medium', sans-serif;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: none;
+  background-color: #fff;
+  color: #3d3d3d;
+}
+.header button:hover{
+  color: #3077EE;
+  border-bottom: 2px solid #3077EE ;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header button:active{
+  color: #3077EE;
+  border-bottom: 2px solid #3077EE ;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.header .searchInp{
+  font-family: 'DIN Pro Medium', sans-serif;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  padding-right: 200px;
+  margin-right: 10px;
+  border: 1px solid #dedede;
+  border-radius: 50px;
+
+}

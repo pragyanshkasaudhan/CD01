@@ -41,7 +41,10 @@ font-family: 'DIN Pro Cond Black', sans-serif; */
 /* Image Section */
 
 .imgSec{
-    background-image: url("img/clg-head.png");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("img/niet.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
